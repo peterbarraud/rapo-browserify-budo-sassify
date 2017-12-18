@@ -1,0 +1,36 @@
+{
+  "name": "rapo-browserify-budo-sassify",
+  "version": "0.0.1",
+  "description": "A Rapid Prototyping project with Brwoserify, Budo & Sassify for SASS",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js --live --open --port 9797 -- -t sassify",
+    "build": "node scripts/build && html-dist --config ./scripts/html-dist.config.js --input index.html",
+    "testbuild": "budo -d ./build --open --port 9898"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:peterbarraud/rapo-browserify-budo-sassify.git"
+  },
+  "keywords": [
+    "browserify",
+    "budo",
+    "sassify",
+    "sass"
+  ],
+  "author": "@gapeterb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterbarraud/rapo-browserify-budo-sassify/issues"
+  },
+  "homepage": "https://github.com/peterbarraud/rapo-browserify-budo-sassify/blob/master/README.md",
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "html-dist": "^0.3.2",
+    "html-minifier": "^3.5.6",
+    "sassify": "^4.0.1",
+    "uglifyify": "^4.0.4"
+  },
+  "dependencies": {}
+}
