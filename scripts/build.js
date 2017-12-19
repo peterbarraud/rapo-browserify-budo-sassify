@@ -14,7 +14,7 @@ var buildCSS = function(){
     console.log('Building index.css');
     var b = require('browserify')();
     b.add('index.js');
-    b.transform(require('scssify'), {
+    b.transform(require('sassify'), {
         global: true,
         sendToCSSFile:true,
         onSendToCSSFile: function(data){

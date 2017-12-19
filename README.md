@@ -1,5 +1,5 @@
 # Browserify with Budo & sassify
-Alright. So we have a base template ([browserify-budo](https://github.com/peterbarraud/rapo-browserify-budo)), and a very convenient  [browserify-css](https://github.com/cheton/browserify-css). So let's get to using [SASS](http://sass-lang.com) in our Rapo projects. And for that, we use the [SASSIFY](https://github.com/cody-greene/sassify) browserify transform.
+Alright. So we have a base template ([browserify-budo](https://github.com/peterbarraud/rapo-browserify-budo)), and a very convenient  [browserify-css](https://github.com/cheton/browserify-css). So let's get to using [SASS](http://sass-lang.com) in our Rapo projects. And for that, we use the [SASSIFY](https://github.com/davidguttman/sassify) browserify transform.
 
 ## How this works
 Pretty straightforward:
